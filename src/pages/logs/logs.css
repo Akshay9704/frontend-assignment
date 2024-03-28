@@ -1,0 +1,21 @@
+.logs {
+    width: 80%;
+    height: 80vh;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(9, 15, 23, 1);
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.timestamp {
+    color: rgba(94, 123, 170, 1);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.message {
+    color: rgba(168, 195, 232, 1);
+    font-size: 13px;
+    font-weight: 300;
+}
