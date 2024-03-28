@@ -15,7 +15,7 @@ const Metrics = () => {
           <p className='text-sm'>09/08/2023 10:10 -&gt; 09/08/2023 10:15</p>
         </div>
         <div>
-          <div className='charts grid grid-cols-2 gap-3 mt-2 py-1 px-6'>
+          <div className='charts grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 mt-2 py-1 px-6'>
             {/* CPU Usage CHART */}
             <CpuChart />
             {/* Memory Usage CHART */}
