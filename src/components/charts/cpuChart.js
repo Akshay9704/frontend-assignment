@@ -62,7 +62,7 @@ const CpuChart = () => {
     },
     onClick: function (_, element) {
       if (element.length > 0) {
-        console.log(element[0]); // Logging the clicked element
+        console.log(element[0]); 
       }
     },
   };
